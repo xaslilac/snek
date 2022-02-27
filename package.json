@@ -1,0 +1,18 @@
+{
+	"name": "snek",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "./public/index.html",
+	"devDependencies": {
+		"@mckayla/prettier": "^1.0.1",
+		"parcel": "^2.0.0-alpha.3.2",
+		"prettier": "^2.5.1",
+		"sass": "^1.26.2",
+		"typescript": "^3.8.3"
+	},
+	"scripts": {
+		"build": "parcel build client/index.html",
+		"dev": "parcel client/index.html",
+		"fmt": "prettier --write ."
+	}
+}
